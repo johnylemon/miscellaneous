@@ -1,0 +1,28 @@
+{
+    "name": "johnylemon/miscellaneous",
+    "type": "library",
+    "description": "Package that holds variety of common helper functions.",
+    "authors": [
+        {
+            "name": "Piotr Krzempek",
+            "email": "hello@johnylemon.dev"
+        }
+    ],
+    "keywords": [
+        "johnylemon",
+        "helpers",
+        "miscellaneous",
+        "functions"
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Johnylemon\\Miscellaneous\\": "src/"
+        }
+    }
+}
